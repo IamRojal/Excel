@@ -18,14 +18,14 @@ export const handler = async(event) => {
       },
     };
         const response = await API.graphql({query: createCountry,variables})
-         console.log(response);
+        console.log(response);
         return {status:'200',data:'successssss',requestBody:requestBody};
    }
-sfgdfgdfg
+
     // return {status:'200eee',data:{event:event,abc:abc}};
    
-       const response = await API.graphql({      query: listCountries,   })
-         console.log(response);
+        const response = await API.graphql({      query: listCountries,   })
+        console.log(response);
         return {status:'200',data:response?.data?.listCountries?.items||[],requestBody:requestBody};
     }
     catch (e) {

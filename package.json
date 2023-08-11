@@ -1,5 +1,5 @@
 {
-  "name": "excelnew12",
+  "name": "excelnew",
   "version": "1.0.0",
   "description": "",
   "main": "country.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-amplify/api": "^5.3.5"
+    "@aws-amplify/api": "^5.4.0"
   }
 }
