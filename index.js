@@ -21,7 +21,7 @@ export const handler = async(event) => {
          console.log(response);
         return {status:'200',data:'successssss',requestBody:requestBody};
    }
-
+sfgdfgdfg
     // return {status:'200eee',data:{event:event,abc:abc}};
    
        const response = await API.graphql({      query: listCountries,   })
